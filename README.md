@@ -44,7 +44,7 @@ conda install -c conda-forge pandas matplotlib plotly Django
 4. Exécuter `python manage.py runserver` pour lancer l'application localement.
 5. Accéder à l'application via votre navigateur en utilisant l'URL donné.
 
-## Auteur(s)
+## Auteurs
 
 - [Manon](https://www.linkedin.com/in/manon-goffinet/)
 - [Kevin](https://www.linkedin.com/in/kevin-hermand/)
