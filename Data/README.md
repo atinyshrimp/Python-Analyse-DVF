@@ -7,9 +7,8 @@ Il faut télécharger les fichiers contenant les données suivantes :
 * Valeurs foncières 2021
 * Valeurs foncières 2022
 
-Finalement, pour obtenir les données nettoyées, il faut se placer dans le dossier parent et lancer `cleaning_data.py`.\
+Finalement, pour obtenir les données nettoyées, il faut se placer dans le dossier parent et lancer `cleaning_data.py`.
 ```
 python cleaning_data.py
 ```
-\
 Normalement, le dossier "Data" sera donc mis en place !
