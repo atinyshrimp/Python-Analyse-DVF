@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<HTML>
+   <HEAD>
+      <TITLE>Django - GOFFINET, HERMAND, LAPILUS</TITLE>
+   </HEAD>
+   <BODY>
+        
+        <font size="+2">Quelle section souhaitez-vous visiter ?</font>
+      
+   </BODY>
+       
+        <label for="model-select"></label>
+        <font size="+3"> </font>
+        <form action = "apply_Model">
+        <label for="model_select">Choose a Model:</label>
+            <select name="model" id="model_select" onchange='if(this.value != 0) {this.form.submit();}'>
+                <option value="0">Please choose a model--</option>
+                <option value="Evolution_des_ventes">Evolution des ventes</option>
+                <option value="Etude_sur_la_surface">Etude sur la surface</option>
+                <option value="Etude_sur_les_types_de_bien">Etude sur les types de bien</option>
+                <option value="Cartes">Répartitions géographiques de 2022</option>
+            </select>
+        <font size="+3"> </font>
+        </form>
+        
+        <font size="+7"> </font>
+
+       {{plot_html|safe}}       
+       {{plot_html2|safe}}
+       {{plot_html3|safe}}
+</HTML>

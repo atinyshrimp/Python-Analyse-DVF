@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<HTML>
+   <HEAD>
+      <TITLE>Django - GOFFINET, HERMAND, LAPILUS</TITLE>
+   </HEAD>
+   <BODY>
+      <P>Quel page souhaitez voir ?
+   </BODY>
+       {{df2021}}
+       <ul>
+       {% for val in les_valeurs%}
+           <li> {{val}} <li>
+       {%endfor%}
+       
+       {{plot_html|safe}}
+</HTML>
